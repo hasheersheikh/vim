@@ -1,8 +1,5 @@
-Joy of Painting[1] with Bob Ross[2]
+Basic VIm 
 ===
-
-	[1] - Vim
-	[2] - Shawn Biddle
 
 Modality
 ===
@@ -121,5 +118,16 @@ Copy/Paste
 	y - Yank. Example: yw (yank word)
 	p - paste after cursor
 	P - paste before cursor
+
+Autocomplete commands
+===
+	for autocomplete mode you have to be in insert mode
+	<initial words for letter> Ctrl-p - for auto complete the word(list will apper to Autocomplete this)
+	<word> Ctrl-x + Ctrl-l - for auto complete the LINE (list will apper for completing the line)
+
+
+Searching file path within file
+===
+	[/]+Ctrl-x + Ctrl-f - access path inside the file (give you the list of all path inside the directory)
 
 # vim: set syn=mkd :
