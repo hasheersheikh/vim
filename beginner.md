@@ -56,13 +56,9 @@ Scanning the canvas
 	G - move to the first caracter of last line
 	gg - move to the start of the file
 
-"Why hjkl and not jkl;?"
-===
-Because go to the next class
-
 "They invented the mouse, why not use that?"
 ===
-La la la la, I can't hear you
+	because it is fast
 
 Getting from a to b: Motions
 ===
