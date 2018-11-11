@@ -36,6 +36,9 @@ Replacing the character
 	r- replace the character 
 	R- replaces multiple character until you stop
 	c - change whatever we specify
+	%s/<word>/<replaceWord>/gc - replace word with replace word in entire file (gc is a flab=g which will ask for you to conform replace )
+	s/<word>/<replaceWord>/gc - replace a single word in single line
+	<VISUAL MODE><Select text>s/<word>/<replaceWord>/gc - replacing in selected part
 	
 Picking up the brush
 ===
@@ -58,7 +61,7 @@ Scanning the canvas
 
 "why hjkl instead of arrow"
 ===
-	you never have to leave home row when editing
+	your finger will never have to leave home row while editing
 
 "They invented the mouse, why not use that?"
 ===
@@ -130,4 +133,10 @@ Searching file path within file
 ===
 	[/]+Ctrl-x + Ctrl-f - access path inside the file (give you the list of all path inside the directory)
 
+Jumping between files 
+===
+	:e <fileName> - open file with <file name>
+ 	Ctrl-O - in command mode (normal mode) jump to previous file from main file
+	Ctrl-i - in command mode (normal node) jump to main file from opened file
+	
 # vim: set syn=mkd :
