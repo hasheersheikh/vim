@@ -56,6 +56,10 @@ Scanning the canvas
 	G - move to the first caracter of last line
 	gg - move to the start of the file
 
+"why hjkl instead of arrow"
+===
+	you never have to leave home row when editing
+
 "They invented the mouse, why not use that?"
 ===
 	because it is fast
